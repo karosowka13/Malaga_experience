@@ -244,16 +244,16 @@
         var terms = $("#cterms").val();
         $.ajax({
             type: "POST",
-            url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
-            success: function(text) {
-                if (text == "success") {
-                    cformSuccess();
-                } else {
-                    cformError();
-                    csubmitMSG(false, text);
-                }
-            }
+            url: "php/mail.php",
+            data: "&name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
+            success: function(phpReturnResult){
+                //alert('Success: ' + phpReturnResult);
+                jQuery("#contactForm").html("<div id='email-sent'><p>Thank you for the message.</p><p>We will reply as soon as possible. </p></div>");     
+           },
+           error: function(errormessage) {
+                 //you would not show the real error to the user - this is just to see if everything is working
+                alert('Sendmail failed possibly php script: ' + errormessage);
+           }
         });
 	}
 
