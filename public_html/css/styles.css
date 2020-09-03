@@ -803,7 +803,7 @@ input[type="checkbox"] {
 /*********************/
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-		url("../images/header-background.jpg") center center no-repeat;
+		url("../images/Teatro\ RomanodeMálaga.jpeg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -1191,7 +1191,8 @@ input[type="checkbox"] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url("../images/details-2-background.jpg") center center no-repeat;
+	background: url("../images/Plaza\ de\ la\ Constitución\,\ Malaga\ 2.jpeg")
+		center center no-repeat;
 	background-size: cover;
 }
 
