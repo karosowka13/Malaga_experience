@@ -924,7 +924,7 @@ input[type="checkbox"] {
 /*     07. Services     */
 /************************/
 .cards-2 {
-	padding-top: 6.625rem;
+	padding-top: 0;
 	padding-bottom: 1.25rem;
 	background-color: #fbfbfb;
 }
