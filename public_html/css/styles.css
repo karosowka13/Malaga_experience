@@ -1268,6 +1268,11 @@ input[type="checkbox"] {
 /**********************/
 /*     11. Call Me    */
 /**********************/
+
+#map {
+	height: 400px; /* The height is 400 pixels */
+	width: 100%; /* The width is the width of the web page */
+}
 .form-1 {
 	padding-top: 6.625rem;
 	padding-bottom: 5.625rem;
