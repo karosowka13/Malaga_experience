@@ -127,6 +127,10 @@ a.white,
 	color: #dfe5ec;
 }
 
+img {
+	pointer-events: none;
+}
+
 .testimonial-text {
 	font-style: italic;
 }
@@ -708,6 +712,12 @@ input[type="checkbox"] {
 }
 
 /* Dropdown Menu */
+
+.navbar-custom .dropdown-menu .language {
+	cursor: pointer;
+	color: white;
+}
+
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;

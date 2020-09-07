@@ -417,3 +417,51 @@ function initMap() {
 	// The marker, positioned at Uluru
 	var marker = new google.maps.Marker({ position: uluru, map: map });
 }
+
+//change language script
+
+//define language reload anchors
+const language_reload = document.querySelectorAll(".language-reload");
+
+//change text in paragraphs
+const language = {
+	eng: { hi: "My Malaga" },
+	es: { hi: "Mi Malaga" },
+};
+
+//define language via window hash
+if (window.location.hash) {
+	if (window.location.hash === "#es") {
+		welcome.textContent = language.es.hi;
+	}
+}
+
+//define language reload onclick iteration
+for (let i; i <= language_reload.length; i++) {
+	language_reload[i].onclick = function () {
+		location.reload(true);
+	};
+}
+
+//disabled rigth clicking events
+var message = "Function Disabled!";
+
+function clickIE4() {
+	if (event.button == 2) {
+		return false;
+	}
+}
+function clickNS4(e) {
+	if (document.layers || (document.getElementById && !document.all)) {
+		if (e.which == 2 || e.which == 3) {
+			return false;
+		}
+	}
+}
+if (document.layers) {
+	document.captureEvents(Event.MOUSEDOWN);
+	document.onmousedown = clickNS4;
+} else if (document.all && !document.getElementById) {
+	document.onmousedown = clickIE4;
+}
+document.oncontextmenu = new Function("return false");
