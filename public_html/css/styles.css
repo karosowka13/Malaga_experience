@@ -110,7 +110,7 @@ h6 {
 
 a {
 	color: #787976;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover {
@@ -747,6 +747,11 @@ input[type="checkbox"] {
 
 .navbar-custom .dropdown-item .item-text {
 	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+}
+
+.navbar-custom .dropdown-item .item-text .active {
+	color: #14bf98;
+	pointer-events: none;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {

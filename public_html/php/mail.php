@@ -40,7 +40,7 @@ try {
     $mailer->Port = 587;
 
     $mailer->setFrom($emailFrom, $name);
-    $mailer->addAddress('mikekarigani31@gmail.com', 'Sout tours');
+    $mailer->addAddress('malaga@southtours.es', 'Sout tours');
 
     $mailer->isHTML(true);
     $mailer->Subject = 'Malaga website contact form';
