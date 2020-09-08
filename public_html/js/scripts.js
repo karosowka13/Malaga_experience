@@ -47,7 +47,7 @@
 	});
 
 	/* Rotating Text - Morphtext */
-	$("#js-rotating").Morphext({
+	$("#rotating").Morphext({
 		// The [in] animation type. Refer to Animate.css for a list of available animations.
 		animation: "fadeIn",
 		// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
@@ -411,8 +411,141 @@ const language_reload = document.querySelectorAll(".language-reload");
 
 //change text in paragraphs
 const language = {
-	eng: { hi: "My Malaga" },
-	es: { hi: "Mi Malaga" },
+	eng: {
+		home: "HOME",
+		about: "ABOUT US",
+		do: "WHAT WE DO",
+		contact: "CONTACT US",
+		freewalkingtour: "FREE WALKING TOUR",
+		navbarDropdown: "LANGUAGE",
+		hi: "MALAGA IS",
+		rotating: "MUSEUMS, PARKS & GARDENS, MONUMENTS",
+		subdescription: "Let us show you what is beneath the heart of this town",
+		book: "BOOK NOW",
+		about2: "ABOUT US",
+		who: "WHO WE ARE",
+		whodescription:
+			"We are young, enthusiastic people commited to create experiences that enhance the love and passion for this wonderful city. We enjoy meeting new people from other countries so that they can know Malaga in a different and authentic way.<br><br>Our goal is to make every person, who sets his foot in Malaga, fall in love with this city.",
+		whodescription2:
+			'"A nonprofit organization founded on the love of history, travel and people."',
+		members: "Our members will help you explore the best of Malaga.",
+		discover:
+			"Not only do we show the most famous places in the city, but also we lead to secret treasures of Malaga.",
+		price: "The tour and the membership are based on tips.",
+		questions: "FIND OUT MORE",
+		what: "What do you want to see?",
+		oldTown: "Old town",
+		monumentos: "Archeaological centers and monuments",
+		parks: "Parks and gardens",
+		join1: "JOIN US",
+		join2: "JOIN US",
+		join3: "JOIN US",
+		whattodo: "What do you want to do?",
+		explore: "Explore the city",
+		taste: "Taste real spanish food",
+		meet: "Meet with people from all around the world",
+		how: "How do you want to spend your time?",
+		enjoy: "Enjoy the moments",
+		knowspanish: "Get to know spanish culture and traditions",
+		relax: "Relax on the beach",
+		whatwedo: "WHAT WE DO",
+		guidedtours: "Guided tours",
+		guideddescription:
+			" During our walking tour we will pass by all the most important monuments and sightseeing places in the old town. We will give very significant and interesting information about them. Regrettably, we are not going into any of them for the lack of time and extra ticket costs. The tour takes 2 hours approx",
+		tourslang: "Tours in many languages",
+		offerlang: "We offer tours in Spanish, English and Italian.",
+		giveinfo: "Give essencial information about the city",
+		giveinfodescripction:
+			" In the end of the tour you will have all the essential information of what to see so you will be able to visit on your own. We will also recommend the best places to eat,try local traditional food and explore the culture of Malaga.",
+		booknow: "Book now",
+		meeting: "Meeting point",
+		freetour: "Free tour",
+		hour:
+			"Malaga Free Tour is every day at 12:00 PM (noon) in Plaza de la Constitución in front of Costa Coffee. Look for a blue shirt and blue umbrella.",
+		freetourdescrip:
+			"<h4>Free walking tour with membership</h4><p>Free tour means that you can decide the price and the value of the tour when it finishes. We consider it more appropriate for guests to decide the price of the tour according to how much they liked it.</p>             <p>Walking is the perfect way to discover and explore the most interesting and crucial places of the city. You don’t have to book the tour, just come to the meeting place and join it. </p><p>During our free tours you will learn about the history, architecture and people of Malaga. Only those who walk Malaga can say that they really know the city and it’s no use to walk with a guidebook, it’s better to join our free tours! If you would like to have a private tour, please contact us.</p>",
+		covid19:
+			"Due to the COVID-19 pandemic, guests joining our tours are welcome to wear face masks for the safety of yourselves and others around you. Please help us by following the recommended safety procedures. Where possible social distancing measures will be implemented during tours and maximum tour numbers will be in place.<br><br>For the time being, our guides will greet you with a welcoming smile, rather than a hearty handshake. <br><br> Stay safe!",
+		contactform: "CONTACT",
+		intouch: "Get In Touch Using The Form",
+		message: "Your message",
+		cterms: "I agree with stated",
+		policy: "Privacy Policy",
+		and: "and",
+		terms: "Terms Conditions",
+		subbmitbutton: "SUBMIT MESSAGE",
+		seeyou: "HOPE TO SEE YOU SOON",
+		come: "COME EXPERIENCE OUR WORLD WITH US",
+		check: "Check also",
+	},
+	es: {
+		home: "HOME",
+		about: "SOBRE NOSOTROS",
+		do: "QUE HACEMOS",
+		contact: "CONTRACTAR",
+		freewalkingtour: "TOUR GRATUIDO",
+		navbarDropdown: "IDIOMA",
+		hi: "MALAGA ES",
+		rotating: "MUSICA, PARQUES & JARDINES, MUSEOS",
+		subdescription:
+			"Déjenos mostrarle lo que hay debajo del corazón de esta ciudad",
+		book: "RESERVA AHORA",
+		about2: "SOBRE NOSOTROS",
+		who: "QUIENES SOMOS",
+		whodescription:
+			"Somos gente joven y entusiasta comprometida con la creación de experiencias que aumenten el amor y la pasión por esta maravillosa ciudad. Disfrutamos de conocer gente nueva de otros países para que conozcan Málaga de una manera diferente y auténtica.<br><br>Nuestro objetivo es hacer que cada persona que ponga un pie en Málaga, se enamore de esta ciudad",
+		whodescription2:
+			'"	Una organización sin fines de lucro fundada en el amor a la historia, los viajes y la gente."',
+		members: "Nuestros miembros le ayudarán a explorar lo mejor de Málaga.",
+		discover:
+			"No sólo mostramos los lugares más famosos de la ciudad, sino que también llevamos a los tesoros secretos de Málaga.",
+		price: "El tour y la membresía se basan en los consejos.",
+		questions: "Saber mas",
+		what: "Que quieres ver?",
+		oldTown: "Casco antiguo",
+		monuments: "Centros arqueológicos y monumentos",
+		parks: "Parks and jardines",
+		join1: "UNIRSE A NOSOTROS",
+		join2: "UNIRSE A NOSOTROS",
+		join3: "UNIRSE A NOSOTROS",
+		whattodo: "Que quieres hacer?",
+		explore: "Explorar la ciudad",
+		taste: "Probar la verdadera comida española",
+		meet: "Conocer gente de todo el mundo",
+		how: "Como quieres pasar tu tiempo?",
+		enjoy: "Disfrutar de los momentos",
+		knowspanish: "Conocer la cultura y las tradiciones españolas",
+		relax: "Relajarse a la playa",
+		whatwedo: "QUE HACEMOS",
+		guidedtours: "Vistas guidas",
+		guideddescription:
+			"Durante nuestros vistas guidas vas a ver monumentos mas importante y lugares famosos en el casco antiguo. Daremos información significativo y interesante sobre los. Por desgracia, no entraremos en ninguno de ellos por la falta de tiempo y les costos extra sobre los billetes. La tour dura approximamente 2 horas",
+		tourslang: "El tours en varias idiomas",
+		offerlang: "Te ofrecemos vistas en Espanol, Ingles y Italiano.",
+		giveinfo: "Damos información esencial sobre la ciudad",
+		giveinfodescripction:
+			"Al final te daremos información a que puedes ver por su cuenta entonces podra visitar los. Tambien remcomendaremos el mejor lugares para comer, probar alimentos locales y explorar la cultura de Malaga.",
+		booknow: "Reserva ahora",
+		meeting: "Punto de encuentro",
+		freetour: "La vista gratuida",
+		hour:
+			"El tour graduida es todos los dias a las 12:00 PM (mediodia) en la Plaza de la Constitución en frente de la Costa Coffee. Buscar la camiseta y la paraguas azul.",
+		freetourdescrip:
+			"<h4>El tour graduida con la membersia</h4><p>El tour graduida significa que te decides el precio al final de la vista. Consideramos más apropiado que los huéspedes decidan el precio de la visita según lo que les haya gustado.</p> <p>Caminar es la manera perfecta de descubrir y explorar los lugares más interesantes y cruciales de la ciudad. No tienes que reservar el tour, sólo tienes que venir al lugar de encuentro y unirte a él. </p><p>Durante nuestros tours gratuitos aprenderá sobre la historia, la arquitectura y la gente de Málaga. Sólo aquellos que caminan por Málaga pueden decir que realmente conocen la ciudad y no sirve de nada caminar con una guía, ¡es mejor unirse a nuestros tours gratuitos! Si desea un tour privado, por favor, póngase en contacto con nosotros.</p>",
+		covid19:
+			"Debido a la pandemia de COVID-19, los huéspedes que se unan a nuestros tours son bienvenidos a usar máscaras faciales para su seguridad y la de los demás a su alrededor. Por favor, ayúdenos siguiendo los procedimientos de seguridad recomendados. Cuando sea posible, se implementarán medidas de distanciamiento social durante los tours y se establecerán números máximos de tours.<br><br>Por el momento, nuestros guías le recibirán con una sonrisa de bienvenida, en lugar de un cordial apretón de manos.<br><br>¡Mantente a salvo!",
+		contactform: "CONTACTO",
+		intouch: "Contacte con nosotros a través del formulario",
+		message: "Tu mensaje",
+		cterms: "Estoy de acuerdo con lo declarado",
+		policy: "Política de privacidad",
+		and: "y",
+		terms: "Condiciones de los términos",
+		subbmitbutton: "ENVIAR MENSAJE",
+		seeyou: "ESPERO VERTE PRONTO.",
+		come: "VEN A EXPERIMENTAR NUESTRO MUNDO CON NOSOTROS",
+		check: "Comprueba también",
+	},
 };
 
 //define language via window hash
