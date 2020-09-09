@@ -406,19 +406,16 @@
 
 /* change language script */
 
-//define language reload anchors
-const language_reload = document.querySelectorAll(".language-reload");
-
 //change text in paragraphs
 const language = {
 	eng: {
 		home: "HOME",
 		about: "ABOUT US",
-		do: "WHAT WE DO",
+		doo: "WHAT WE DO",
 		contact: "CONTACT US",
 		freewalkingtour: "FREE WALKING TOUR",
 		navbarDropdown: "LANGUAGE",
-		hi: "MALAGA IS",
+		hi: "MALAGA IS ",
 		rotating: "MUSEUMS, PARKS & GARDENS, MONUMENTS",
 		subdescription: "Let us show you what is beneath the heart of this town",
 		book: "BOOK NOW",
@@ -462,10 +459,15 @@ const language = {
 		freetour: "Free tour",
 		hour:
 			"Malaga Free Tour is every day at 12:00 PM (noon) in Plaza de la Constitución in front of Costa Coffee. Look for a blue shirt and blue umbrella.",
-		freetourdescrip:
-			"<h4>Free walking tour with membership</h4><p>Free tour means that you can decide the price and the value of the tour when it finishes. We consider it more appropriate for guests to decide the price of the tour according to how much they liked it.</p>             <p>Walking is the perfect way to discover and explore the most interesting and crucial places of the city. You don’t have to book the tour, just come to the meeting place and join it. </p><p>During our free tours you will learn about the history, architecture and people of Malaga. Only those who walk Malaga can say that they really know the city and it’s no use to walk with a guidebook, it’s better to join our free tours! If you would like to have a private tour, please contact us.</p>",
+		freetourdescrip: "Free walking tour with membership",
+		freetourdescripp:
+			"Free tour means that you can decide the price and the value of the tour when it finishes. We consider it more appropriate for guests to decide the price of the tour according to how much they liked it.",
+		freetourdescrippp:
+			"Walking is the perfect way to discover and explore the most interesting and crucial places of the city. You don’t have to book the tour, just come to the meeting place and join it.",
+		freetourdescripppp:
+			"During our free tours you will learn about the history, architecture and people of Malaga. Only those who walk Malaga can say that they really know the city and it’s no use to walk with a guidebook, it’s better to join our free tours! If you would like to have a private tour, please contact us.",
 		covid19:
-			"Due to the COVID-19 pandemic, guests joining our tours are welcome to wear face masks for the safety of yourselves and others around you. Please help us by following the recommended safety procedures. Where possible social distancing measures will be implemented during tours and maximum tour numbers will be in place.<br><br>For the time being, our guides will greet you with a welcoming smile, rather than a hearty handshake. <br><br> Stay safe!",
+			"Due to the COVID-19 pandemic, guests joining our tours are welcome to wear face masks for the safety of yourselves and others around you. Please help us by following the recommended safety procedures. Where possible social distancing measures will be implemented during tours and maximum tour numbers will be in place.For the time being, our guides will greet you with a welcoming smile, rather than a hearty handshake. Stay safe!",
 		contactform: "CONTACT",
 		intouch: "Get In Touch Using The Form",
 		message: "Your message",
@@ -473,7 +475,7 @@ const language = {
 		policy: "Privacy Policy",
 		and: "and",
 		terms: "Terms Conditions",
-		subbmitbutton: "SUBMIT MESSAGE",
+		submitbutton: "SUBMIT MESSAGE",
 		seeyou: "HOPE TO SEE YOU SOON",
 		come: "COME EXPERIENCE OUR WORLD WITH US",
 		check: "Check also",
@@ -481,68 +483,74 @@ const language = {
 	es: {
 		home: "HOME",
 		about: "SOBRE NOSOTROS",
-		do: "QUE HACEMOS",
-		contact: "CONTRACTAR",
-		freewalkingtour: "TOUR GRATUIDO",
+		doo: "QUE HACEMOS",
+		contact: "CONTACTOS",
+		freewalkingtour: "TOUR LIBRE A PIE",
 		navbarDropdown: "IDIOMA",
-		hi: "MALAGA ES",
-		rotating: "MUSICA, PARQUES & JARDINES, MUSEOS",
+		hi: "MALAGA ES ",
+		rotating: "MUSEOS, PARQUES & JARDINES, MONUMENTOS",
 		subdescription:
-			"Déjenos mostrarle lo que hay debajo del corazón de esta ciudad",
+			"Déjenos mostrarle lo que hay dentro del corazón de esta ciudad",
 		book: "RESERVA AHORA",
 		about2: "SOBRE NOSOTROS",
 		who: "QUIENES SOMOS",
 		whodescription:
-			"Somos gente joven y entusiasta comprometida con la creación de experiencias que aumenten el amor y la pasión por esta maravillosa ciudad. Disfrutamos de conocer gente nueva de otros países para que conozcan Málaga de una manera diferente y auténtica.<br><br>Nuestro objetivo es hacer que cada persona que ponga un pie en Málaga, se enamore de esta ciudad",
+			"Somos gente joven y entusiasta, comprometida con la creación de experiencias que aumenten el amor y la pasión por esta maravillosa ciudad. Disfrutamos de conocer gente nueva de otros países para que conozcan Málaga de una manera diferente y auténtica.<br><br>Nuestra misión es hacer que cada persona que ponga un pie en Málaga, se enamore de esta ciudad",
 		whodescription2:
-			'"	Una organización sin fines de lucro fundada en el amor a la historia, los viajes y la gente."',
+			'"  Una organización sin fines de lucro basada en el amor a la historia, los viajes y la gente."',
 		members: "Nuestros miembros le ayudarán a explorar lo mejor de Málaga.",
 		discover:
-			"No sólo mostramos los lugares más famosos de la ciudad, sino que también llevamos a los tesoros secretos de Málaga.",
-		price: "El tour y la membresía se basan en los consejos.",
-		questions: "Saber mas",
-		what: "Que quieres ver?",
+			"No sólo mostramos los lugares más famosos de la ciudad, sino que también llevamos a los tesoros escondidos de Málaga.",
+		price: "El tour y la membresía se basan en propinas.",
+		questions: "Saber más",
+		what: "Qué quieres ver?",
 		oldTown: "Casco antiguo",
-		monuments: "Centros arqueológicos y monumentos",
-		parks: "Parks and jardines",
-		join1: "UNIRSE A NOSOTROS",
-		join2: "UNIRSE A NOSOTROS",
-		join3: "UNIRSE A NOSOTROS",
-		whattodo: "Que quieres hacer?",
+		monuments: "Restos arqueológicos y monumentos",
+		parks: "Parques y jardines",
+		join1: "ÚNETE A NOSOTROS",
+		join2: "ÚNETE A NOSOTROS",
+		join3: "ÚNETE A NOSOTROS",
+		whattodo: "¿Qué quieres hacer?",
 		explore: "Explorar la ciudad",
 		taste: "Probar la verdadera comida española",
 		meet: "Conocer gente de todo el mundo",
-		how: "Como quieres pasar tu tiempo?",
+		how: "¿Cómo quieres pasar tu tiempo?",
 		enjoy: "Disfrutar de los momentos",
-		knowspanish: "Conocer la cultura y las tradiciones españolas",
-		relax: "Relajarse a la playa",
-		whatwedo: "QUE HACEMOS",
-		guidedtours: "Vistas guidas",
+		knowspanish: "Conoce la cultura y las tradiciones españolas",
+		relax: "Relajarse en la playa",
+		whatwedo: "QUÉ HACEMOS",
+		guidedtours: "Visitas guiadas",
 		guideddescription:
-			"Durante nuestros vistas guidas vas a ver monumentos mas importante y lugares famosos en el casco antiguo. Daremos información significativo y interesante sobre los. Por desgracia, no entraremos en ninguno de ellos por la falta de tiempo y les costos extra sobre los billetes. La tour dura approximamente 2 horas",
-		tourslang: "El tours en varias idiomas",
-		offerlang: "Te ofrecemos vistas en Espanol, Ingles y Italiano.",
+			"Durante nuestras visitas guiadas vas a ver los monumentos más importante y lugares famosos en el casco antiguo. Vamos a dar informaciones muy significativas e interesantes. Por desgracia, no entraremos en ninguno de ellos por la falta de tiempo y los gastos extra sobre los billetes. El tour dura aproximadamente 2 horas",
+		tourslang: "El tour es en varios idiomas",
+		offerlang: "Ofrecemos visitas en Español, Inglés e Italiano.",
 		giveinfo: "Damos información esencial sobre la ciudad",
 		giveinfodescripction:
-			"Al final te daremos información a que puedes ver por su cuenta entonces podra visitar los. Tambien remcomendaremos el mejor lugares para comer, probar alimentos locales y explorar la cultura de Malaga.",
-		booknow: "Reserva ahora",
-		meeting: "Punto de encuentro",
-		freetour: "La vista gratuida",
+			"Al final te daremos todas las informaciones que necesitas para ir a visitar por tu cuenta. También recomendaremos los mejores lugares para comer, probar comida local y explorar la cultura de Málaga.",
+		booknow: "Reserve ahora",
+		meeting: "Sitio",
+		freetour: "Tour libre",
 		hour:
-			"El tour graduida es todos los dias a las 12:00 PM (mediodia) en la Plaza de la Constitución en frente de la Costa Coffee. Buscar la camiseta y la paraguas azul.",
-		freetourdescrip:
-			"<h4>El tour graduida con la membersia</h4><p>El tour graduida significa que te decides el precio al final de la vista. Consideramos más apropiado que los huéspedes decidan el precio de la visita según lo que les haya gustado.</p> <p>Caminar es la manera perfecta de descubrir y explorar los lugares más interesantes y cruciales de la ciudad. No tienes que reservar el tour, sólo tienes que venir al lugar de encuentro y unirte a él. </p><p>Durante nuestros tours gratuitos aprenderá sobre la historia, la arquitectura y la gente de Málaga. Sólo aquellos que caminan por Málaga pueden decir que realmente conocen la ciudad y no sirve de nada caminar con una guía, ¡es mejor unirse a nuestros tours gratuitos! Si desea un tour privado, por favor, póngase en contacto con nosotros.</p>",
+			"El tour libre empieza todos los días a las 12:00 PM (mediodía) en la Plaza de la Constitución en frente al Costa Coffee. Buscar la camiseta y el paraguas azul.",
+		freetourdescrip: "El tour libre con la membresía",
+		freetourdescripp:
+			"El tour libre significa que tu decides el precio al final de la visita. Consideramos apropiado que los huéspedes decidan el precio de la visita según lo que les haya gustado.",
+		freetourdescrippp:
+			"Andar es la manera perfecta de descubrir y explorar los lugares más interesantes y cruciales de la ciudad. No tienes que reservar el tour, sólo tienes que venir al lugar de encuentro y sumarte.",
+		freetourdescripppp:
+			"Durante nuestros tours libres aprenderás sobre la historia, la arquitectura y la gente de Málaga. Sólo aquellos que caminan por Málaga pueden decir que realmente conocen la ciudad y no sirve de nada andar con un manual, ¡es mejor unirse a nuestros tours libres! Si desea un tour privado, por favor, póngase en contacto con nosotros.",
 		covid19:
-			"Debido a la pandemia de COVID-19, los huéspedes que se unan a nuestros tours son bienvenidos a usar máscaras faciales para su seguridad y la de los demás a su alrededor. Por favor, ayúdenos siguiendo los procedimientos de seguridad recomendados. Cuando sea posible, se implementarán medidas de distanciamiento social durante los tours y se establecerán números máximos de tours.<br><br>Por el momento, nuestros guías le recibirán con una sonrisa de bienvenida, en lugar de un cordial apretón de manos.<br><br>¡Mantente a salvo!",
-		contactform: "CONTACTO",
-		intouch: "Contacte con nosotros a través del formulario",
+			"Debido a la pandemia de COVID-19, los huéspedes que se unen a nuestros tours son bienvenidos a usar máscaras faciales para su seguridad y la de los demás a su alrededor. Por favor, ayúdenos siguiendo los procedimientos de seguridad recomendados. Cuando sea posible, se implementarán medidas de distanciamiento social durante los tours y se establecerán números máximos de tours. Por el momento, nuestros guías le recibirán con una sonrisa de bienvenida, en lugar de un cordial apretón de manos. ¡Mantente seguro!",
+		contactform: "CONTACTOS",
+		intouch: "Contacta con nosotros a través del formulario",
+		name: "Nombre",
 		message: "Tu mensaje",
 		cterms: "Estoy de acuerdo con lo declarado",
 		policy: "Política de privacidad",
 		and: "y",
-		terms: "Condiciones de los términos",
-		subbmitbutton: "ENVIAR MENSAJE",
-		seeyou: "ESPERO VERTE PRONTO.",
+		terms: "Términos y condiciones",
+		submitbutton: "ENVIAR MENSAJE",
+		seeyou: "ESPERAMOS VERTE PRONTO.",
 		come: "VEN A EXPERIMENTAR NUESTRO MUNDO CON NOSOTROS",
 		check: "Comprueba también",
 	},
@@ -551,16 +559,20 @@ const language = {
 //define language via window hash
 if (window.location.hash) {
 	if (window.location.hash === "#es") {
-		welcome.textContent = language.es.hi;
+		for (let id in language.es) {
+			document.getElementById(id).textContent = language.es[id];
+		}
 	}
+	// else if (window.location.hash === "#eng") {
+	// 	for (let id in language.eng) {
+	// 		document.getElementById(id).textContent = language.eng[id];
+	// 	}
+	// }
 }
 
-//define language reload onclick iteration
-for (let i; i <= language_reload.length; i++) {
-	language_reload[i].onclick = function () {
-		location.reload(true);
-	};
-}
+$(window).on("hashchange", function () {
+	window.location.reload(true);
+});
 
 /* disabled rigth clicking events */
 var message = "Function Disabled!";
