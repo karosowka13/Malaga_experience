@@ -1,0 +1,21 @@
+
+
+v1
+#1d6dc1 niebieski
+#f4b667 zolty
+#467caf cos pomiedzy
+
+v2
+#0039ab niebieski
+#edac44 zolty
+#edac44 cos pomiedzy
+
+v3
+#1a6ac1 niebieski
+#d57433 zolty
+#b6713a cos pomiedzy
+
+orginal 
+#153e52 tlo covid
+#14bf98 green
+#113448 footer

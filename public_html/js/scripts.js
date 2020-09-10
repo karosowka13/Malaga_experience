@@ -506,7 +506,7 @@ const language = {
 		what: "Qué quieres ver?",
 		oldTown: "Casco antiguo",
 		monuments: "Restos arqueológicos y monumentos",
-		parks: "Parques y jardines",
+		parks: "Parques y jardines bellísimos",
 		join1: "ÚNETE A NOSOTROS",
 		join2: "ÚNETE A NOSOTROS",
 		join3: "ÚNETE A NOSOTROS",
