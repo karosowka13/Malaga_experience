@@ -124,6 +124,11 @@ a.green {
 
 a.white,
 .white {
+	color: black;
+}
+
+a.white2,
+.white2 {
 	color: white;
 }
 
@@ -914,7 +919,7 @@ input[type="checkbox"] {
 	position: absolute;
 	width: 6rem;
 	height: 6rem;
-	background: url("../images/hexagon-gblue.png") center center no-repeat;
+	background: url("../images/orange.png") center center no-repeat;
 	background-size: 6rem 6rem;
 }
 
