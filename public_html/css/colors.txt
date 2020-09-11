@@ -1,8 +1,8 @@
 
 
 v1
-#1d6dc1 niebieski
-#f4b667 zolty
+#1d6dc1 blue
+#f4b667 yellow
 #467caf cos pomiedzy
 
 v2
@@ -15,7 +15,13 @@ v3
 #d57433 zolty
 #b6713a cos pomiedzy
 
+website v4
+#0282c4 blue
+#f48024 orange
+
 orginal 
 #153e52 tlo covid
 #14bf98 green
 #113448 footer
+linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+
