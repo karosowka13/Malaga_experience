@@ -25,3 +25,13 @@ orginal
 #113448 footer
 linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
 
+background white 
+tour gratis a pie
+book now first
+ add titles free walking tour
+ parks and gardens
+contact us - anchor not working
+ optimization of image 
+ https://imagecompressor.com/
+
+ style="padding:28% 10% 10% 0%; transform:rotate(15deg)"

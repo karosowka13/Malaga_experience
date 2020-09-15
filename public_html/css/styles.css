@@ -851,6 +851,9 @@ input[type="checkbox"] {
 /*********************/
 /*     05. Intro     */
 /*********************/
+#book:hover {
+	background-color: white;
+}
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
@@ -1205,16 +1208,23 @@ input[type="checkbox"] {
 	margin-bottom: 1.75rem;
 }
 
-.tabs .area-2 {
+/* .tabs .area-2 {
 	height: 27rem;
 	background: url("../images/Plaza\ de\ la\ Constitución\,\ Malaga\ 2.jpeg")
 		center center no-repeat;
 	background-size: cover;
-}
+} */
 
 /****************************/
 /*     10. Testimonials     */
 /****************************/
+
+.col-lg-7 .image-container {
+	height: 27rem;
+	background: url("../images/logoV5.png") center center no-repeat;
+	background-size: cover;
+}
+
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
