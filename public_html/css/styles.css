@@ -818,8 +818,7 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: url("../images/Teatro\ RomanodeMálaga.jpeg") center center
-		no-repeat;
+	background: url("../images/Teatro.jpeg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -2031,8 +2030,6 @@ a:hover.back-to-top {
 		text-align: left;
 	}
 
-	.counter #counter .cell {
-	}
 	/* end of about */
 
 	/* Contact */
