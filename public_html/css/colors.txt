@@ -35,3 +35,5 @@ contact us - anchor not working
  https://imagecompressor.com/
 
  style="padding:28% 10% 10% 0%; transform:rotate(15deg)"
+
+		background: url("../images/Plaza.jpeg") center center no-repeat;
