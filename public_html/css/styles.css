@@ -1123,6 +1123,19 @@ input[type="checkbox"] {
 	background-size: cover;
 }
 
+@media (max-width: 991px) {
+	#tourshirt {
+		width: 100%;
+		height: 27rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+	#tourshirt {
+		width: 49%;
+	}
+}
+
 .whoweare .area-1 {
 	width: 50%;
 	height: 100%;
@@ -2012,9 +2025,6 @@ a:hover.back-to-top {
 		padding-bottom: 7.5rem;
 	}
 
-	.header h1 {
-		font: 700 3.5rem/4rem "Montserrat", sans-serif;
-	}
 	/* end of header */
 
 	/* Details 1 */
@@ -2098,10 +2108,19 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 768px */
-
+.area-3 {
+	background: url(../images/rsz_tour.jpg) center center no-repeat;
+	width: 100%;
+	height: 27rem;
+	background-size: cover;
+}
 /* Min-width width 992px */
 @media (min-width: 992px) {
 	/* General Styles */
+
+	.area-3 {
+		display: none;
+	}
 	.p-heading {
 		width: 65%;
 	}
@@ -2122,7 +2141,7 @@ a:hover.back-to-top {
 		width: 1.625rem;
 		height: 1.625rem;
 		position: absolute;
-		background: url("../images/hexagon-green.svg") center center no-repeat;
+		background: url("../images/orange.png") center center no-repeat;
 		background-size: 1.625rem 1.625rem;
 		transition: all 0.2s ease;
 	}
@@ -2153,6 +2172,16 @@ a:hover.back-to-top {
 	.header .text-container {
 		margin-top: 6.5rem;
 	}
+	.header h1 {
+		font: 700 3.5rem/4rem "Montserrat", sans-serif;
+	}
+
+	@media (max-width: 1000px) {
+		.header h1 {
+			font-size: 1.5rem/4rem;
+		}
+	}
+
 	/* end of header */
 
 	/* Intro */
@@ -2205,6 +2234,7 @@ a:hover.back-to-top {
 
 	.accordion .area-2 {
 		height: 100%;
+		width: 49%;
 		display: inline-block;
 		vertical-align: top;
 	}
