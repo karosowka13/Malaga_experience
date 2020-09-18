@@ -47,17 +47,17 @@
 		spaceBetween: 20,
 		breakpoints: { 992: { slidesPerView: 2 }, 768: { slidesPerView: 1 } },
 	});
-	e(".popup-with-move-anim").magnificPopup({
-		type: "inline",
-		fixedContentPos: !1,
-		fixedBgPos: !0,
-		overflowY: "auto",
-		closeBtnInside: !0,
-		preloader: !1,
-		midClick: !0,
-		removalDelay: 300,
-		mainClass: "my-mfp-slide-bottom",
-	});
+	// e(".popup-with-move-anim").magnificPopup({
+	// 	type: "inline",
+	// 	fixedContentPos: !1,
+	// 	fixedBgPos: !0,
+	// 	overflowY: "auto",
+	// 	closeBtnInside: !0,
+	// 	preloader: !1,
+	// 	midClick: !0,
+	// 	removalDelay: 300,
+	// 	mainClass: "my-mfp-slide-bottom",
+	// });
 	var o = e(".grid").isotope({
 		itemSelector: ".element-item",
 		layoutMode: "fitRows",
@@ -309,7 +309,7 @@ const language = {
 			"During our free tours you will learn about the history, architecture and people of Malaga. Only those who walk Malaga can say that they really know the city and it’s no use to walk with a guidebook, it’s better to join our free tours! If you would like to have a private tour, please contact us.",
 		covid19:
 			"Due to the COVID-19 pandemic, guests joining our tours are welcome to wear face masks for the safety of yourselves and others around you. Please help us by following the recommended safety procedures. Where possible social distancing measures will be implemented during tours and maximum tour numbers will be in place.For the time being, our guides will greet you with a welcoming smile, rather than a hearty handshake. Stay safe!",
-		contacttform: "CONTACT",
+		contactform: "CONTACT",
 		intouch: "Get In Touch Using The Form",
 		message: "Your message",
 		cterms: "I agree with stated",
@@ -383,7 +383,7 @@ const language = {
 			"Durante nuestros tours libres aprenderás sobre la historia, la arquitectura y la gente de Málaga. Sólo aquellos que caminan por Málaga pueden decir que realmente conocen la ciudad y no sirve de nada andar con un manual, ¡es mejor unirse a nuestros tours libres! Si desea un tour privado, por favor, póngase en contacto con nosotros.",
 		covid19:
 			"Debido a la pandemia de COVID-19, los huéspedes que se unen a nuestros tours son bienvenidos a usar máscaras faciales para su seguridad y la de los demás a su alrededor. Por favor, ayúdenos siguiendo los procedimientos de seguridad recomendados. Cuando sea posible, se implementarán medidas de distanciamiento social durante los tours y se establecerán números máximos de tours. Por el momento, nuestros guías le recibirán con una sonrisa de bienvenida, en lugar de un cordial apretón de manos. ¡Mantente seguro!",
-		contacttform: "CONTACTOS",
+		contactform: "CONTACTOS",
 		intouch: "Contacta con nosotros a través del formulario",
 		name: "Nombre",
 		message: "Tu mensaje",

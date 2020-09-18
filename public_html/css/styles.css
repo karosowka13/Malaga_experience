@@ -818,7 +818,7 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: url("../images/Teatro.jpeg") center center no-repeat;
+	background: url("../images/rsz_teatro.jpg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -941,6 +941,12 @@ input[type="checkbox"] {
 /************************/
 /*     07. Services     */
 /************************/
+
+.card-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .cards-2 {
 	padding-top: 0;
 	padding-bottom: 0.25rem;
@@ -1020,7 +1026,7 @@ input[type="checkbox"] {
 /*************************/
 #tour {
 	height: 100%;
-	background: url("../images/tour.jpg") center center no-repeat;
+	background: url("../images/rsz_tour.jpg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -1113,7 +1119,7 @@ input[type="checkbox"] {
 #tourshirt {
 	height: 100%;
 	width: 49.6%;
-	background: url("../images/Plaza.jpeg") center center no-repeat;
+	background: url("../images/rsz_plaza.jpg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -1249,8 +1255,16 @@ input[type="checkbox"] {
 
 .col-lg-6 .image-container {
 	height: 100%;
-	background: url("../images/logoV5.png") center center no-repeat;
+	background: url("../images/rsz_logov5rotate.png") center center no-repeat;
+	margin-top: 5rem;
 	background-size: contain;
+}
+
+@media (max-width: 1000px) {
+	.col-lg-6 .image-container {
+		height: 25rem;
+		margin-top: 0;
+	}
 }
 
 .slider {
