@@ -9,7 +9,7 @@ Simple single page website for the free walking tour in Malaga. Optimalized in t
 ## Features of the website:
 
 * Responsivness 
-* Contact form
+* Send mail with the contact form
 * Booking system injected
 * Google map applied
 * Avaliable in english and spanish!
