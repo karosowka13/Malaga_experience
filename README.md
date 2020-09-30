@@ -4,7 +4,7 @@ Simple single page website for the free walking tour in Malaga. Optimalized in t
 
 ## Perview of the website:
 
-![](pubcrawl.gif)
+![](malagamor.gif)
 
 ## Features of the website:
 
