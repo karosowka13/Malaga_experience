@@ -35,7 +35,7 @@ try {
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
     $mailer->Username = 'southtoursmailer@gmail.com';
-    $mailer->Password = 'zaq1@WSX';
+    $mailer->Password = '*****';
     $mailer->SMTPSecure = 'tls';
     $mailer->Port = 587;
 
